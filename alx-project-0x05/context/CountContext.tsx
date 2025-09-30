@@ -4,7 +4,7 @@ interface CountContextProps {
   count: number
   increment: () => void
   decrement: () => void
-}
+};
 
 export const CountContext = createContext<CountContextProps | undefined>(undefined)
 
